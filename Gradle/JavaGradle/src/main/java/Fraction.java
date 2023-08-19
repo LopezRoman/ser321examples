@@ -68,7 +68,7 @@ public class Fraction {
 
 
          } else {
-            System.out.println("Exactly 2 arguments should be provided.\n gradle runFraction --args='7 6'");
+            System.out.println("Exactly 2 arguments should be provided.\n gradle runFraction --args='7 6' or gradle runFrac -Pnum=3 -Pdenom=4");
          }
       }catch(Exception e) {
          e.printStackTrace();
